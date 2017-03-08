@@ -5,11 +5,22 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
+import { CoursesComponent } from './courses/courses.component';
+import { CourseListComponent } from './courses/course-list/course-list.component';
+import { CourseDetailComponent } from './courses/course-detail/course-detail.component';
+import { HeaderComponent } from './header/header.component';
+import { CourseSearchComponent } from './courses/course-search/course-search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent
+    FooterComponent,
+    CoursesComponent,
+    CourseListComponent,
+    CourseDetailComponent,
+    FooterComponent,
+    HeaderComponent,
+    CourseSearchComponent
   ],
   imports: [
     BrowserModule,
