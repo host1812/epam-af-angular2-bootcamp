@@ -1,15 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { BrowserModule }         from '@angular/platform-browser';
+import { HttpModule }            from '@angular/http';
+import { FormsModule }           from '@angular/forms';
+import { NgModule }              from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { CoursesComponent } from './courses';
-import { CourseListComponent } from './courses/course-list';
+import { AppComponent }          from './app.component';
+
+import { CoursesComponent }      from './courses';
 import { CourseDetailComponent } from './courses/course-detail';
 import { CourseSearchComponent } from './courses/course-search';
-import { FooterComponent } from './footer';
-import { HeaderComponent } from './header';
+import { CourseListComponent }   from './courses/course-list';
+import { HeaderComponent }       from './header';
+import { FooterComponent }       from './footer';
+
 
 
 @NgModule({
